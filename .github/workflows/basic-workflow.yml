@@ -22,4 +22,4 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: ${{ matrix.java }}
-      - run: maven test
+      - run: mvn test
